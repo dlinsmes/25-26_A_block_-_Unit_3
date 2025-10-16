@@ -70,7 +70,7 @@ public class Sorting {
 
         //selection sort
         //- find the smallest number to the right of the |
-        // swap it into the position left next to the |
+        // swap it into the position left of the |
         //| moves to the right by one position
         //10 2 5 9 4
         // 10 | 2 5 9 4
