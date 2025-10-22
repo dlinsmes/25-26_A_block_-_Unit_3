@@ -94,7 +94,7 @@ public class CardGame {
         //loop - continue until there's 4 of a kind
         boolean fourOfKind = false;
         Scanner s = new Scanner(System.in);
-        while (!fourOfKind) {
+        while (!fourOfKind && top < 52) {
             //pick which card to throw out
             System.out.println("enter the index of the card to throw out");
             int i = s.nextInt();
